@@ -75,7 +75,7 @@ static vtxDevice_t vtxMsp = {
 STATIC_UNIT_TESTED mspVtxStatus_e mspVtxStatus = MSP_VTX_STATUS_OFFLINE;
 static uint8_t mspVtxPortIdentifier = 255;
 
-#define MSP_VTX_REQUEST_PERIOD_US (200 * 1000) // 200ms
+#define MSP_VTX_REQUEST_PERIOD_US (10 * 1000) // 200ms
 
 static bool isCrsfPortConfig(const serialPortConfig_t *portConfig)
 {

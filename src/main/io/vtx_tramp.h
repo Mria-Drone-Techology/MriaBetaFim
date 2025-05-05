@@ -24,7 +24,7 @@
 
 #define VTX_TRAMP_POWER_COUNT 5
 
-#define VTX_TRAMP_MIN_FREQUENCY_MHZ 5000             //min freq in MHz
+#define VTX_TRAMP_MIN_FREQUENCY_MHZ 4990             //min freq in MHz
 #define VTX_TRAMP_MAX_FREQUENCY_MHZ 5999             //max freq in MHz
 
 bool vtxTrampInit(void);
